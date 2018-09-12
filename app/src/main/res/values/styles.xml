@@ -1,0 +1,79 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme2" parent="android:Theme.Material.Light.DarkActionBar">
+        <item name="colorPrimary">#0099cc</item>
+        <item name="colorPrimaryDark">#004d66</item>
+        <item name="colorAccent">#ff1a53</item>
+    </style>
+
+    <style name="header">
+        <!--<item type="id" name="header1"/>-->
+        <item name="android:text">Styles &amp; Material Design</item>
+        <item name="android:layout_width">450dp</item>
+        <item name="android:layout_height">52dp</item>
+        <item name="android:textSize">23sp</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">#7EC0EE</item>
+    </style>
+
+    <style name="image">
+        <item name="android:background">#B0E2FF</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">232dp</item>
+    </style>
+
+    <style name="title">
+        <item name="android:text">QUIAPO CHURCH</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:textSize">27sp</item>
+        <item name="android:textColor">#262626</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
+
+    </style>
+
+    <style name="location">
+        <item name="android:text">Location: Quezon Blvd, Plaza Miranda Quiapo, Manila, Luzon 1014 Philippines</item>
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#262626</item>
+    </style>
+
+    <style name="distance">
+        <item name="android:text">Distance from UST: 2.4 km</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#262626</item>
+    </style>
+
+    <style name="buttonNext">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:text">NEXT</item>
+    </style>
+
+    <style name="buttonBack">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:text">BACK</item>
+    </style>
+
+
+
+</resources>
